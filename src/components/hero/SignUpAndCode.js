@@ -9,7 +9,9 @@ export default function StartRemoteHiring() {
           Lorem sadjadja sajhdiuawbdasd usadhaiuwhdjkasbnnmczxc
           usadyhowaiedpoajdsnc hdakj
         </p>
-        <Button>Start coding</Button>
+        <Button variant="contained" color="primary">
+          Start coding
+        </Button>
       </li>
     </div>
   );
