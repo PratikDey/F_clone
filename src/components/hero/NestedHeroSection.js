@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../../img/hero.png";
 import StartRemoteHiring from "./StartRemoteHiring";
 import SignUpAndCode from "./SignUpAndCode";
 import { Grid } from "@material-ui/core";
