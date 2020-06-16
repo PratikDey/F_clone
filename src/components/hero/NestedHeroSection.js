@@ -1,18 +1,18 @@
 import React from "react";
-import Hero from "../../img/hero.png";
 import StartRemoteHiring from "./StartRemoteHiring";
 import SignUpAndCode from "./SignUpAndCode";
-import { Grid } from "@material-ui/core";
+import HeroImage from "./HeroImage";
 
 export default function NestedHeroSection() {
   return (
-    <Grid container direction="row" alignItems="center">
-      <Grid item sm={3}>
+    <div>
+      <HeroImage />
+      <div>
         <StartRemoteHiring />
-      </Grid>
-      <Grid item sm={3}>
+      </div>
+      <div>
         <SignUpAndCode />
-      </Grid>
-    </Grid>
+      </div>
+    </div>
   );
 }

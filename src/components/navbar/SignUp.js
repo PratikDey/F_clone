@@ -1,10 +1,5 @@
 import React from "react";
-import { Button } from "@material-ui/core";
 
 export default function SignUp() {
-  return (
-    <Button variant="contained" color="primary">
-      Log In
-    </Button>
-  );
+  return <div>Log In</div>;
 }

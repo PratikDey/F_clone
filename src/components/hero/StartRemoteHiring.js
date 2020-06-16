@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@material-ui/core";
+
 export default function StartRemoteHiring() {
   return (
     <div>
@@ -9,9 +9,7 @@ export default function StartRemoteHiring() {
           Lorem sadjadja sajhdiuawbdasd usadhaiuwhdjkasbnnmczxc
           usadyhowaiedpoajdsnc hdakj
         </p>
-        <Button variant="contained" color="primary">
-          Start remote hiring
-        </Button>
+        <div>Start remote hiring</div>
       </li>
     </div>
   );
