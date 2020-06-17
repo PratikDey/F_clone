@@ -5,14 +5,10 @@ import HeroImage from "./HeroImage";
 
 export default function NestedHeroSection() {
   return (
-    <div>
+    <div className="grid grid-cols-3">
+      <StartRemoteHiring />
+      <SignUpAndCode />
       <HeroImage />
-      <div>
-        <StartRemoteHiring />
-      </div>
-      <div>
-        <SignUpAndCode />
-      </div>
     </div>
   );
 }

@@ -7,9 +7,9 @@ import SignUp from "./SignUp";
 export default function Navbar() {
   return (
     <div>
-      <div>
-        <img src={logo} alt="logo" />
-        <div>
+      <div className="flex justify-between items-center">
+        <img className="w-48" src={logo} alt="logo" />
+        <div className="flex">
           <SignIn />
           <SignUp />
         </div>

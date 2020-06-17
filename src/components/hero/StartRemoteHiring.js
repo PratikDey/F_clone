@@ -2,14 +2,16 @@ import React from "react";
 
 export default function StartRemoteHiring() {
   return (
-    <div>
+    <div className="list-none flex justify-center items-center">
       <li>
-        <h2>For Companies</h2>
-        <p>
+        <h2 className="text-2xl underline">For Companies</h2>
+        <p className="leading-loose">
           Lorem sadjadja sajhdiuawbdasd usadhaiuwhdjkasbnnmczxc
           usadyhowaiedpoajdsnc hdakj
         </p>
-        <div>Start remote hiring</div>
+        <button className="my-4 bg-green-600 p-2 rounded-md text-white text-sm uppercase hover:bg-green-400 focus:outline-none focus:shadow-outline">
+          Start remote hiring
+        </button>
       </li>
     </div>
   );
